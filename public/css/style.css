@@ -1,0 +1,48 @@
+:root{
+    --icons_bg:#eae3d6;
+    --evolution_btn:#334d5c;
+    --footer_bg: #393a3b;
+
+}
+
+body {
+    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -1px -3px 15px 8px rgba(0,0,0,0); 
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -1px -3px 15px 8px rgba(0,0,0,0); 
+    font-family: 'M PLUS Rounded 1c', sans-serif; 
+}
+
+
+
+a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+.logo{
+  width: 11rem;
+}
+
+.menu a img {
+    width: 50px;
+}
+
+
+.evolution a {
+    background-color: var(--evolution_btn);
+    padding: 1rem 2rem;
+
+}
+
+.icons {
+    background-color: var(--icons_bg);
+}
+.icons a {
+    color: var(--evolution_btn);
+    width: 6rem;
+}
+
+footer {
+    background-color: var(--footer_bg);
+}
+
+
